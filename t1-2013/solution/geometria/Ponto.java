@@ -21,8 +21,8 @@ public class Ponto implements Comparable<Ponto> {
 		return "(" + x + ", " + y + ")";
 	}
 	
-	public boolean equals(Ponto p2) {
-		return x == p2.getX() && y == p2.getY();
+	public boolean equals(Object obj) {
+		return x == ((Ponto)obj).getX() && y == ((Ponto)obj).getY();
 	}
 	
 	public int compareTo(Ponto p2) {
