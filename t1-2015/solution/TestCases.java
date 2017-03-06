@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestCasesTest {
+public class TestCases {
 	
 	@Test
 	public void testBuilding() throws Exception {
